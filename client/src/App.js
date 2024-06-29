@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import HomePage from "./Page/Home/Page"
 import PaymentPage from "./Page/Payment/Page"
 import ProductPage from "./Page/Product/Page"
-import Home from './_TEST_/home/home'
+import Home from './_TEST_/imageUpload_app'
 const App = () => {
   return (
    <>
