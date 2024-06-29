@@ -4,6 +4,7 @@ import HomePage from "./Page/Home/Page"
 import PaymentPage from "./Page/Payment/Page"
 import ProductPage from "./Page/Product/Page"
 import Home from './_TEST_/imageUpload_app'
+import BiHome from './_TEST_/home/home'
 const App = () => {
   return (
    <>
@@ -12,6 +13,7 @@ const App = () => {
     <Route path='/product/:id'></Route>
     <Route path='/product/' element={<ProductPage/>}></Route>
     <Route path='/home/' element={<Home/>}></Route>
+    <Route path='/Bihome/' element={<BiHome/>}></Route>
     <Route path='/product/auth/login'></Route>
     <Route path='/product/auth/sign'></Route>
    </Routes>

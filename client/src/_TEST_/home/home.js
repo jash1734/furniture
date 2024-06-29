@@ -9,6 +9,7 @@ import { useState } from 'react';
 import Header from './Header';
 
 
+
 function Home() {
 
     const [selected, setSelected] = useState('product');
@@ -221,7 +222,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
