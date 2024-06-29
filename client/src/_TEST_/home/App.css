@@ -1,0 +1,7 @@
+.selected {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
+
+    text-underline-offset: 6px;
+  }
