@@ -8,6 +8,7 @@ import './App.css';
 import { useState } from 'react';
 
 
+
 function Home() {
 
     const [selected, setSelected] = useState('product');
@@ -219,7 +220,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
