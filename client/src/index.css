@@ -20,3 +20,46 @@ body{
 .roboto{
   font-family: "Roboto", sans-serif;
 }
+
+
+.header{
+  background-image: url("https://dl.dropbox.com/scl/fi/vxo5ci7v1o6r67nm3rr9k/222.png?rlkey=3ab5srwxcv5wkx41657m3sdiu&st=zrz0yla2&dl=0");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.keyword-input-container {
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the flex container */
+}
+
+.keywords-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow keywords to wrap to the next line */
+  gap: 5px; /* Gap between keywords */
+}
+
+.keyword {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.keyword button {
+  margin-left: 5px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 50%;
+}
+
+.keyword-input {
+  padding: 5px;
+  margin-left: 10px;
+}

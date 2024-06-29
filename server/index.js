@@ -15,11 +15,12 @@ app.get('/', (req, res) => {
 });
 
 // Import routes after exporting wss to ensure they have access to it
-// const userRoute = require('./route/user');
+const productRoute = require('./route/product');
+
 // const questionRoute = require('./route/question');
 // const chatRoute = require('./route/chat');
 
-// app.use('/api/v1/user', userRoute);
+app.use('/api/v1/product', productRoute);
 // app.use('/api/v1/question', questionRoute);
 // app.use('/api/v1/chat', chatRoute);
 

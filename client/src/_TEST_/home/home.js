@@ -6,6 +6,7 @@ import { BiTransfer } from "react-icons/bi";
 import { CiStar } from "react-icons/ci";
 import './App.css';
 import { useState } from 'react';
+import Header from './Header';
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
 
     return (
         <div>
+            <Header/>
             <div className='h-fit lg:flex bg-gray-300'>
                 <div className=' w-full h-fit flex flex-col'>
                     <div className='p-3 m-4 flex flex-col gap-2 '>
